@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# Docker
+.dockerignore
+
+# Sensitive files
+.env
+*.secret
+*.key
+
+# Logs
+src/logs/
+
+# Virtual environment
+venv/
+ 
